@@ -64,7 +64,7 @@ class AbstractProviderTest extends TestCase
     }
 
     /**
-     * Tests https://github.com/stojankukrika/freshbooks-oauth2-client/pull/485
+     * Tests https://github.com/stojankukrika/oauth2-client/pull/485
      */
     public function testCustomAuthorizationUrlOptions()
     {
@@ -80,7 +80,7 @@ class AbstractProviderTest extends TestCase
     }
 
     /**
-     * Tests https://github.com/stojankukrika/freshbooks-oauth2-client/issues/134
+     * Tests https://github.com/stojankukrika/oauth2-client/issues/134
      */
     public function testConstructorSetsProperties()
     {
@@ -779,7 +779,7 @@ class AbstractProviderTest extends TestCase
      * This test helps show the fatal errors occurring as a result of incompatible
      * method signatures after the 2.4.0 release.
      *
-     * @link https://github.com/stojankukrika/freshbooks-oauth2-client/issues/752
+     * @link https://github.com/stojankukrika/oauth2-client/issues/752
      */
     public function testExtendedProviderDoesNotErrorWhenUsingAccessTokenAsTheTypeHint()
     {

@@ -1,12 +1,12 @@
-# Freshbooks OAuth 2.0 Client Changelog
+# OAuth 2.0 Client Changelog
 
 ## 2.6.1
 
 _Released: 2021-12-22_
 
 * Fix deprecation notices, providing full support for PHP 8.1
-  [#919](https://github.com/stojankukrika/freshbooks-oauth2-client/pull/919)
-  [#920](https://github.com/stojankukrika/freshbooks-oauth2-client/pull/920)
+  [#919](https://github.com/stojankukrika/oauth2-client/pull/919)
+  [#920](https://github.com/stojankukrika/oauth2-client/pull/920)
 
 ## 2.6.0
 
@@ -14,21 +14,21 @@ _Released: 2020-10-27_
 
 * Indicate support for PHP 8
 * Allow time to be set for testing purposes
-  [#852](https://github.com/stojankukrika/freshbooks-oauth2-client/pull/852)
+  [#852](https://github.com/stojankukrika/oauth2-client/pull/852)
 
 ## 2.5.0
 
 _Released: 2020-07-18_
 
-* Allow Guzzle 7.x to be used [#847](https://github.com/stojankukrika/freshbooks-oauth2-client/pull/847)
+* Allow Guzzle 7.x to be used [#847](https://github.com/stojankukrika/oauth2-client/pull/847)
 
 ## 2.4.1
 
 _Released: 2018-11-22_
 
 * Revert to use of `AccessToken` in type hints to preserve backwards
-  compatibility; this fixes the issue reported in [#752](https://github.com/stojankukrika/freshbooks-oauth2-client/issues/752)
-  and [#753](https://github.com/stojankukrika/freshbooks-oauth2-client/issues/753)
+  compatibility; this fixes the issue reported in [#752](https://github.com/stojankukrika/oauth2-client/issues/752)
+  and [#753](https://github.com/stojankukrika/oauth2-client/issues/753)
 
 ## 2.4.0
 
@@ -207,7 +207,7 @@ _Released: 2015-06-20_
 
 _Released: 2015-06-15_
 
-* BREAK: LinkedIn Provider: Default scopes removed from LinkedIn Provider. See "[Managing LinkedIn Scopes](https://github.com/stojankukrika/freshbooks-oauth2-client/blob/9cea9864c2e89bce1b922d1e37ba5378b3b0b264/README.md#managing-linkedin-scopes)" in the README for information on how to set scopes. See [#327](https://github.com/stojankukrika/freshbooks-oauth2-client/pull/327) and [#307](https://github.com/stojankukrika/freshbooks-oauth2-client/pull/307) for details on this change.
+* BREAK: LinkedIn Provider: Default scopes removed from LinkedIn Provider. See "[Managing LinkedIn Scopes](https://github.com/stojankukrika/oauth2-client/blob/9cea9864c2e89bce1b922d1e37ba5378b3b0b264/README.md#managing-linkedin-scopes)" in the README for information on how to set scopes. See [#327](https://github.com/stojankukrika/oauth2-client/pull/327) and [#307](https://github.com/stojankukrika/oauth2-client/pull/307) for details on this change.
 * FIX: LinkedIn Provider: A scenario existed in which `publicProfileUrl` was not set, generating a PHP notice; this has been fixed.
 * FIX: Instagram Provider: Fixed scope separator.
 * Documentation updates and corrections.
@@ -297,7 +297,7 @@ _Released: 2014-12-29_
 
 _Released: 2014-12-03_
 
-* Added ability to specify a redirect handler for providers through use of a callback (see [Provider\AbstractProvider::setRedirectHandler()](https://github.com/stojankukrika/freshbooks-oauth2-client/blob/55de45401eaa21f53c0b2414091da6f3b0f3fcb7/src/Provider/AbstractProvider.php#L314-L317))
+* Added ability to specify a redirect handler for providers through use of a callback (see [Provider\AbstractProvider::setRedirectHandler()](https://github.com/stojankukrika/oauth2-client/blob/55de45401eaa21f53c0b2414091da6f3b0f3fcb7/src/Provider/AbstractProvider.php#L314-L317))
 * Updated authorize and token URLs for the Microsoft provider; the old URLs had been phased out and were no longer working (see #146)
 * Increased test coverage
 * Documentation updates, minor bug fixes, and coding standards fixes

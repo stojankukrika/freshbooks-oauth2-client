@@ -1,6 +1,6 @@
 {
-    "name": "stojankukrika/freshbooks-oauth2-client",
-    "description": "Freshbooks OAuth 2.0 Client Library",
+    "name": "stojankukrika/oauth2-client",
+    "description": "OAuth 2.0 Client Library",
     "license": "MIT",
     "require": {
         "php": "^7.0 || ^8.0",

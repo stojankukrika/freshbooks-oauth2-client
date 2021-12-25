@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on [Github](https://github.com/stojankukrika/freshbooks-oauth2-client).
+We accept contributions via Pull Requests on [Github](https://github.com/stojankukrika/oauth2-client).
 
 
 ## Pull Requests

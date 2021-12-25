@@ -1,8 +1,8 @@
-# Freshbooks OAuth 2.0 Client
+# OAuth 2.0 Client
 
 ## Authors
 
-Also see <https://github.com/thephpleague/oauth2-client/contributors> and <https://github.com/stojankukrika/freshbooks-oauth2-client/contributors> .
+Also see <https://github.com/thephpleague/oauth2-client/contributors> and <https://github.com/stojankukrika/oauth2-client/contributors> .
 
 ### Current Maintainers
 

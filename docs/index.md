@@ -7,12 +7,12 @@ title: oauth2-client
 League/oauth2-client
 ======================
 
-[![Gitter Chat](https://img.shields.io/badge/gitter-join_chat-brightgreen.svg?style=flat-square)](https://gitter.im/stojankukrika/freshbooks-oauth2-client)
-[![Source Code](https://img.shields.io/badge/source-thephpleague/oauth2--client-blue.svg?style=flat-square)](https://github.com/stojankukrika/freshbooks-oauth2-client)
-[![Latest Version](https://img.shields.io/github/release/stojankukrika/freshbooks-oauth2-client.svg?style=flat-square)](https://github.com/stojankukrika/freshbooks-oauth2-client/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/stojankukrika/freshbooks-oauth2-client/blob/master/LICENSE)
-[![Build Status](https://img.shields.io/github/workflow/status/stojankukrika/freshbooks-oauth2-client/CI?label=CI&logo=github&style=flat-square)](https://github.com/stojankukrika/freshbooks-oauth2-client/actions?query=workflow%3ACI)
-[![Codecov Code Coverage](https://img.shields.io/codecov/c/gh/stojankukrika/freshbooks-oauth2-client?label=codecov&logo=codecov&style=flat-square)](https://codecov.io/gh/stojankukrika/freshbooks-oauth2-client)
+[![Gitter Chat](https://img.shields.io/badge/gitter-join_chat-brightgreen.svg?style=flat-square)](https://gitter.im/stojankukrika/oauth2-client)
+[![Source Code](https://img.shields.io/badge/source-thephpleague/oauth2--client-blue.svg?style=flat-square)](https://github.com/stojankukrika/oauth2-client)
+[![Latest Version](https://img.shields.io/github/release/stojankukrika/oauth2-client.svg?style=flat-square)](https://github.com/stojankukrika/oauth2-client/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/stojankukrika/oauth2-client/blob/master/LICENSE)
+[![Build Status](https://img.shields.io/github/workflow/status/stojankukrika/oauth2-client/CI?label=CI&logo=github&style=flat-square)](https://github.com/stojankukrika/oauth2-client/actions?query=workflow%3ACI)
+[![Codecov Code Coverage](https://img.shields.io/codecov/c/gh/stojankukrika/oauth2-client?label=codecov&logo=codecov&style=flat-square)](https://codecov.io/gh/stojankukrika/oauth2-client)
 [![Total Downloads](https://img.shields.io/packagist/dt/league/oauth2-client.svg?style=flat-square)](https://packagist.org/packages/league/oauth2-client)
 
 The OAuth 2.0 login flow, seen commonly around the web in the form of "Connect with Facebook/Google/etc." buttons, is a common integration added to web applications, but it can be tricky and tedious to do right. To help, we've created the `league/oauth2-client` package, which provides a base for integrating with various OAuth 2.0 providers, without overburdening your application with the concerns of [RFC 6749](http://tools.ietf.org/html/rfc6749).

@@ -1,4 +1,4 @@
-# Freshbooks OAuth 2.0 Client
+# OAuth 2.0 Client
 
 This package provides a base for integrating with [OAuth 2.0](http://oauth.net/2/) service providers.
 
@@ -10,7 +10,7 @@ This OAuth 2.0 client library will work with any OAuth 2.0 provider that conform
 
 Many service providers provide additional functionality above and beyond the OAuth 2.0 specification. For this reason, you may extend and wrap this library to support additional behavior. There are already many [official](https://oauth2-client.thephpleague.com/providers/league/) and [third-party](https://oauth2-client.thephpleague.com/providers/thirdparty/) provider clients available (e.g., Facebook, GitHub, Google, Instagram, LinkedIn, etc.). If your provider isn't in the list, feel free to add it.
 
-This package is compliant with [PSR-1][], [PSR-2][], [PSR-4][], and [PSR-7][]. If you notice compliance oversights, please send a patch via pull request. If you're interested in contributing to this library, please take a look at our [contributing guidelines](https://github.com/stojankukrika/freshbooks-oauth2-client/blob/master/CONTRIBUTING.md).
+This package is compliant with [PSR-1][], [PSR-2][], [PSR-4][], and [PSR-7][]. If you notice compliance oversights, please send a patch via pull request. If you're interested in contributing to this library, please take a look at our [contributing guidelines](https://github.com/stojankukrika/oauth2-client/blob/master/CONTRIBUTING.md).
 
 ## Requirements
 
@@ -37,11 +37,11 @@ For usage and code examples, check out our [basic usage guide](https://oauth2-cl
 
 ## Contributing
 
-Please see [our contributing guidelines](https://github.com/stojankukrika/freshbooks-oauth2-client/blob/master/CONTRIBUTING.md) for details.
+Please see [our contributing guidelines](https://github.com/stojankukrika/oauth2-client/blob/master/CONTRIBUTING.md) for details.
 
 ## License
 
-The MIT License (MIT). Please see [LICENSE](https://github.com/stojankukrika/freshbooks-oauth2-client/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [LICENSE](https://github.com/stojankukrika/oauth2-client/blob/master/LICENSE) for more information.
 
 
 [PSR-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md

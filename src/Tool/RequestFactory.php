@@ -9,7 +9,7 @@
  * @license http://opensource.org/licenses/MIT MIT
  * @link http://thephpleague.com/oauth2-client/ Documentation
  * @link https://packagist.org/packages/league/oauth2-client Packagist
- * @link https://github.com/stojankukrika/freshbooks-oauth2-client GitHub
+ * @link https://github.com/stojankukrika/oauth2-client GitHub
  */
 
 namespace League\OAuth2\Client\Tool;

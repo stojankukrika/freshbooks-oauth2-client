@@ -13,7 +13,7 @@ Implementing a Provider Client
 >
 > For example, if your GitHub username is *santa*, and you are implementing the *giftpay* OAuth 2.0 client library, a good name for your Composer package would be `santa/oauth2-giftpay`.
 
-If you are working with an OAuth 2.0 service provider not supported out-of-the-box or by an existing package, you may implement your own. To do so, extend [`League\OAuth2\Client\Provider\AbstractProvider`](https://github.com/stojankukrika/freshbooks-oauth2-client/blob/master/src/Provider/AbstractProvider.php) and implement the required abstract methods:
+If you are working with an OAuth 2.0 service provider not supported out-of-the-box or by an existing package, you may implement your own. To do so, extend [`League\OAuth2\Client\Provider\AbstractProvider`](https://github.com/stojankukrika/oauth2-client/blob/master/src/Provider/AbstractProvider.php) and implement the required abstract methods:
 
 ```php
 public function getBaseAuthorizationUrl();
@@ -65,14 +65,14 @@ const ACCESS_TOKEN_RESOURCE_OWNER_ID = null;
 
 After setting `ACCESS_TOKEN_RESOURCE_OWNER_ID` on your provider client class, the `AccessToken` returned from `AbstractProvider::getAccessToken()` will have its `$resourceOwnerId` property set, which you may retrieve by calling `AccessToken::getResourceOwnerId()`.
 
-Next, implement the `AbstractProvider::createResourceOwner()` method. This method accepts as parameters a response array and an `AccessToken` object. You may use this information to request resource owner details from your service, returning an object that implements [`League\OAuth2\Client\Provider\ResourceOwnerInterface`](https://github.com/stojankukrika/freshbooks-oauth2-client/blob/master/src/Provider/ResourceOwnerInterface.php). `AbstractProvider::getResourceOwner()` returns this object.
+Next, implement the `AbstractProvider::createResourceOwner()` method. This method accepts as parameters a response array and an `AccessToken` object. You may use this information to request resource owner details from your service, returning an object that implements [`League\OAuth2\Client\Provider\ResourceOwnerInterface`](https://github.com/stojankukrika/oauth2-client/blob/master/src/Provider/ResourceOwnerInterface.php). `AbstractProvider::getResourceOwner()` returns this object.
 
 Make It Available
 ------------------
 
-If you find a package for a certain provider useful, chances are someone else will too! Make your package available by putting it on [Packagist](https://packagist.org) and [GitHub](https://github.com). After it's available, submit a pull request to the [oauth2-client](https://github.com/stojankukrika/freshbooks-oauth2-client) repository, adding your provider client to the [provider client list](https://github.com/stojankukrika/freshbooks-oauth2-client/blob/master/docs/providers/thirdparty.md).
+If you find a package for a certain provider useful, chances are someone else will too! Make your package available by putting it on [Packagist](https://packagist.org) and [GitHub](https://github.com). After it's available, submit a pull request to the [oauth2-client](https://github.com/stojankukrika/oauth2-client) repository, adding your provider client to the [provider client list](https://github.com/stojankukrika/oauth2-client/blob/master/docs/providers/thirdparty.md).
 
 Make It Official
 ----------------
 
-If you want to transfer your provider client to the `thephpleague` GitHub organization and add it to the list of officially-supported provider clients, please open a pull request on the stojankukrika/freshbooks-oauth2-client package. Before new provider clients will be accepted, they must have 100% unit test code coverage and follow the conventions and code style used in the other [official PHP League OAuth 2.0 Client provider clients](/providers/league/).
+If you want to transfer your provider client to the `thephpleague` GitHub organization and add it to the list of officially-supported provider clients, please open a pull request on the stojankukrika/oauth2-client package. Before new provider clients will be accepted, they must have 100% unit test code coverage and follow the conventions and code style used in the other [official PHP League OAuth 2.0 Client provider clients](/providers/league/).
