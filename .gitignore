@@ -7,3 +7,4 @@ nbproject/private/
 test/log
 build
 /.phpunit.result.cache
+.idea
